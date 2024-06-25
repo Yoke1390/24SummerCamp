@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"ad86dd407c336637","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：少女.md","x":360,"y":5,"width":260,"height":50},
+		{"id":"01a419d115a8ffff","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：鬼神.md","x":-140,"y":240,"width":260,"height":50},
+		{"id":"ec7d19ab84323264","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：青年.md","x":-130,"y":5,"width":240,"height":50},
+		{"id":"954f38ec24f05cce","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：導師.md","x":340,"y":240,"width":300,"height":50}
+	],
+	"edges":[
+		{"id":"d6985a2bfe79485d","fromNode":"ad86dd407c336637","fromSide":"bottom","toNode":"954f38ec24f05cce","toSide":"top","fromEnd":"arrow","label":"一緒に暮らす"},
+		{"id":"e85f466ba890b5d3","fromNode":"ad86dd407c336637","fromSide":"top","toNode":"ec7d19ab84323264","toSide":"top","label":"助け出す"},
+		{"id":"a5c3069a085721bd","fromNode":"01a419d115a8ffff","fromSide":"top","toNode":"ec7d19ab84323264","toSide":"bottom","label":"魂を喰らう"},
+		{"id":"b6c2b21c1d71dfc6","fromNode":"01a419d115a8ffff","fromSide":"bottom","toNode":"954f38ec24f05cce","toSide":"bottom","fromEnd":"arrow","label":"古くからの知り合い"},
+		{"id":"14ec96602656bd19","fromNode":"01a419d115a8ffff","fromSide":"right","toNode":"ad86dd407c336637","toSide":"left","label":"1代前の捧げ物"}
+	]
+}
