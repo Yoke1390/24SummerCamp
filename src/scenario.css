@@ -1,0 +1,17 @@
+html {
+  -webkit-writing-mode: vertical-rl;
+  -epub-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+.tcy {
+    /*↓横書きにしている*/
+    writing-mode: horizontal-tb;
+    /*↓余白やインデントの調整*/
+    text-indent: 0;
+    line-height: 1;
+}
+
+div.Indent p {
+  text-indent: 5em;
+}
