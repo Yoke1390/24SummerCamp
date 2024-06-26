@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"ad86dd407c336637","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：少女.md","x":360,"y":5,"width":260,"height":50},
-		{"id":"01a419d115a8ffff","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：鬼神.md","x":-140,"y":240,"width":260,"height":50},
-		{"id":"ec7d19ab84323264","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：青年.md","x":-130,"y":5,"width":240,"height":50},
-		{"id":"954f38ec24f05cce","type":"file","file":"Longform/夏合宿：贄/キャラクター/贄：導師.md","x":340,"y":240,"width":300,"height":50}
+		{"id":"ad86dd407c336637","type":"file","file":"Character/少女.md","x":360,"y":5,"width":260,"height":50},
+		{"id":"01a419d115a8ffff","type":"file","file":"Character/鬼神.md","x":-140,"y":240,"width":260,"height":50},
+		{"id":"ec7d19ab84323264","type":"file","file":"Character/青年.md","x":-130,"y":5,"width":240,"height":50},
+		{"id":"954f38ec24f05cce","type":"file","file":"Character/導師.md","x":340,"y":240,"width":300,"height":50}
 	],
 	"edges":[
 		{"id":"d6985a2bfe79485d","fromNode":"ad86dd407c336637","fromSide":"bottom","toNode":"954f38ec24f05cce","toSide":"top","fromEnd":"arrow","label":"一緒に暮らす"},
