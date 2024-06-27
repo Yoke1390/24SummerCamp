@@ -78,6 +78,15 @@ def parse(text):
                   r'<span class="tcy">\1</span>',
                   text)
 
+    if text[:3] == "青年：":
+        return indent(text[3:], "青年　　　") + "\n\n"
+
+    if text[:3] == "少女：":
+        return indent(text[3:], "少女　　　") + "\n\n"
+
+    if text[:3] == "鬼神: ":
+        return indent(text[3:], "鬼神　　　") + "\n\n"
+
     if text[:3] == "導師：":
         return indent(text[3:], "導師　　　") + "\n\n"
 
